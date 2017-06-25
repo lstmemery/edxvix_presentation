@@ -29,5 +29,9 @@ Make deployment and data preparation as simple as possible
 1. Query Google BigQuery (1 million+ rows)
 2. Access Google Cloud Storage
 3. Preprocess as much as possible
-4. Serve All Graphs Reactively
+4. Serve All Plots Reactively
+
+---
+
+![Populate Course](./img/populate_course.png)
 
