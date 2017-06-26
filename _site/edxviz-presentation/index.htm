@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>EdxViz Final Presentation</title>
+    <title>edXViz Learning Analytics Dashboard</title>
     <style>
         @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
         @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
@@ -118,7 +118,7 @@
 <body>
 <textarea id="source">
 class: center, middle, inverse
-# EdxViz Final Presentation
+# edXViz Learning Analytics Dashboard
 
 - Andrew Lim ([@AndrewLim1990](https://github.com/AndrewLim1990))
 - David Laing ([@laingdk](https://github.com/laingdk))
@@ -134,90 +134,22 @@ June 27th, 2017
 *image source: https://www.diygenius.com/wp-content/uploads/2013/08/ultimate-mooc-guide.jpg*
 
 ---
-# Main Goal
-#### Create the next dashboard iteration
-* Current existing solution:
+# Main Goals
 
-<img style="margin: auto; display: block;"
-     src="./../img/intro_and_goals/insights_1.png"
-     width="100%" height="100%"
-     alt="Populate Course Diagram">
-
----
-# Current Solution
-
-<img style="margin: auto; display: block;"
-     src="./../img/intro_and_goals/insights_2.png"
-     width="60%" height="60%"
-     alt="Populate Course Diagram">
-
-
----
-# Current Solution
-
-<img style="margin: auto; display: block;"
-     src="./../img/intro_and_goals/insights_2.png"
-     width="60%" height="60%"
-     alt="Populate Course Diagram">
-
-<img style="margin: auto; display: block;"
-     src="./../img/intro_and_goals/insights_3.png"
-     width="60%" height="60%"
-     alt="Populate Course Diagram">
-
-
----
-# Current Solution
-
-<img style="margin: auto; display: block;"
-     src="./../img/intro_and_goals/insights_2.png"
-     width="60%" height="60%"
-     alt="Populate Course Diagram">
-
-<img style="margin: auto; display: block;"
-     src="./../img/intro_and_goals/insights_3.png"
-     width="60%" height="60%"
-     alt="Populate Course Diagram">
-
-<img style="margin: auto; display: block;"
-     src="./../img/intro_and_goals/insights_4.png"
-     width="60%" height="60%"
-     alt="Populate Course Diagram">
-
----
-# Current Solution
-
-<img style="margin: auto; display: block;"
-     src="./../img/intro_and_goals/insights_2.png"
-     width="60%" height="60%"
-     alt="Populate Course Diagram">
-
-<img style="margin: auto; display: block;"
-     src="./../img/intro_and_goals/insights_3.png"
-     width="60%" height="60%"
-     alt="Populate Course Diagram">
-
-<img style="margin: auto; display: block;"
-     src="./../img/intro_and_goals/insights_4.png"
-     width="60%" height="60%"
-     alt="Populate Course Diagram">
-
-<img style="margin: auto; display: block;"
-     src="./../img/intro_and_goals/insights_5.png"
-     width="60%" height="60%"
-     alt="Populate Course Diagram">
-
----
-
-# Goals
-
-* Create the next dashboard iteration
-* Help instructors to answer key questions:
+#### Help instructors to answer key questions:
   * Who are my students? (General demographics)
   * What is the overall structure of my course?
   * How are students engaging with my videos?
   * How are students performing on the problems?
   * How are students interacting with the forums?
+
+#### Have instructors use our dashboard
+  * Easily deployable
+  * Scalable
+  * Generalize to a wide variety of courses and instructors
+
+???
+* Using shiny to finish MVP for testing
 
 ---
 
@@ -233,7 +165,7 @@ June 27th, 2017
 
 <img style="margin: auto; display: block;"
      src="./../img/scavenger_hunt_questions.png"
-     width="80%" height="80%"
+     width="70%" height="70%"
      alt="Populate Course Diagram">
 
 ---
@@ -243,7 +175,7 @@ June 27th, 2017
      src="./../img/notes_table.png"
      width="100%" height="100%"
      alt="Populate Course Diagram">
-	 
+
 ---
 
 # How do we deal with hundreds of requirements from instructors?
@@ -253,59 +185,31 @@ June 27th, 2017
      width="60%" height="60%"
      alt="Populate Course Diagram">
 
-Create a "universal remote control" to satisfy everyone's need ？ 
-No.
-
-###  We mainly targeted six key pain points that we summarized from these feedback.
+Create a "universal remote control" to satisfy everyone's need ？
 
 ---
-# Instructor Pain Point 1: **Not enough interactivity**
-
-<img style="margin: auto; display: block;"
-     src="./../img/p1.png"
-     width="85%" height="85%"
-     alt="Populate Course Diagram">
-
-
----
-# Instructor Pain Point 2: **Unclear display of overview engagement Eiffel Tower graph**
+# Instructor Pain Point 1: **Unclear display of overview engagement Eiffel Tower graph**
 
 <img style="margin: auto; display: block;"
      src="./../img/p2.png"
-     width="85%" height="85%"
+     width="65%" height="65%"
      alt="Populate Course Diagram">
 
 
 ---
-# Instructor Pain Point 3: **Lack of guidance for analytics of problem sets**
-
-<img style="margin: auto; display: block;"
-     src="./../img/p3.png"
-     width="85%" height="85%"
-     alt="Populate Course Diagram">
-
----
-# Instructor Pain Point 4: **Lack of in-depth understanding of student video watching behavior**
-
-<img style="margin: auto; display: block;"
-     src="./../img/p4.png"
-     width="85%" height="85%"
-     alt="Populate Course Diagram">
-
----
-# Instructor Pain Point 5: **No access to forum discussion data**
+# Instructor Pain Point 2: **No access to forum discussion data**
 
 <img style="margin: auto; display: block;"
      src="./../img/p5.png"
-     width="85%" height="85%"
+     width="65%" height="65%"
      alt="Populate Course Diagram">
 
 ---
-# Instructor Pain Point 6: **Lack of information about which URLs are clicked**
+# Instructor Pain Point 3: **Lack of information about which URLs are clicked**
 
 <img style="margin: auto; display: block;"
      src="./../img/p6.png"
-     width="85%" height="85%"
+     width="65%" height="65%"
      alt="Populate Course Diagram">
 
 ---
@@ -332,6 +236,7 @@ No.
 
 ![Deployment Structure](./../img/deployment_structure.png)
 
+---
 # Future of the project
 
 * Deploy for all UBC courses
@@ -342,7 +247,10 @@ No.
 ---
 # Documentation
 
-[![](./../img/future/documentation.png)](https://andrewlim1990.github.io/edx_dashboard_documentation.github.io/index.html)
+<img style="margin: auto; display: block;"
+     src="./../img/future/documentation.png"
+     width="100%" height="100%"
+     alt="Populate Course Diagram">
 
 ---
 
@@ -352,7 +260,6 @@ No.
 * "Download Data" option
 * Prediction of student success & drop-out
 * Functionality for A/B testing
-* Social network analysis
 
     </textarea>
 <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript">
