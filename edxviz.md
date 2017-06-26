@@ -20,7 +20,9 @@ June 27th, 2017
 
 ---
 
-![Populate Course](./img/populate_course.png)
+# Course Population
+
+<img style="margin: auto; display: block;" src="./img/populate_course.png" width="66%" height="66%">
 
 ---
 # Project Encapsulation
