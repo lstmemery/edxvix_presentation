@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>EdxViz Final Presentation</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+        @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+        @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+        h1, h2, h3 {
+            font-family: 'Yanone Kaffeesatz';
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+        .remark-slide-content h1 { font-size: 3em; }
+        .remark-slide-content h2 { font-size: 2em; }
+        .remark-slide-content h3 { font-size: 1.6em; }
+        .footnote {
+            position: absolute;
+            bottom: 3em;
+        }
+        li p { line-height: 1.25em; }
+        .red { color: #fa0000; }
+        .blue { color: blue; }
+        .green { color: green; }
+        .large { font-size: 2em; }
+        a, a > code {
+            color: rgb(249, 38, 114);
+            text-decoration: none;
+        }
+        code {
+            background: #e7e8e2;
+            border-radius: 5px;
+        }
+        .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+        .remark-code-line-highlighted     { background-color: #373832; }
+        .pull-left {
+            float: left;
+            width: 47%;
+        }
+        .pull-right {
+            float: right;
+            width: 47%;
+        }
+        .pull-right ~ p {
+            clear: both;
+        }
+        #slideshow .slide .content code {
+            font-size: 0.8em;
+        }
+        #slideshow .slide .content pre code {
+            font-size: 0.9em;
+            padding: 15px;
+        }
+        .inverse {
+            background: #272822;
+            color: #777872;
+            text-shadow: 0 0 20px #333;
+        }
+        .inverse h1, .inverse h2 {
+            color: #f3f3f3;
+            line-height: 0.8em;
+        }
+
+        /* Slide-specific styling */
+        #slide-inverse .footnote {
+            bottom: 12px;
+            left: 20px;
+        }
+        #slide-how .slides {
+            font-size: 0.9em;
+            position: absolute;
+            top:  151px;
+            right: 140px;
+        }
+        #slide-how .slides h3 {
+            margin-top: 0.2em;
+        }
+        #slide-how .slides .first, #slide-how .slides .second {
+            padding: 1px 20px;
+            height: 90px;
+            width: 120px;
+            -moz-box-shadow: 0 0 10px #777;
+            -webkit-box-shadow: 0 0 10px #777;
+            box-shadow: 0 0 10px #777;
+        }
+        #slide-how .slides .first {
+            background: #fff;
+            position: absolute;
+            top: 20%;
+            left: 20%;
+            z-index: 1;
+        }
+        #slide-how .slides .second {
+            position: relative;
+            background: #fff;
+            z-index: 0;
+        }
+
+        /* Two-column layout */
+        .left-column {
+            color: #777;
+            width: 20%;
+            height: 92%;
+            float: left;
+        }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+            color: #000;
+        }
+        .right-column {
+            width: 75%;
+            float: right;
+            padding-top: 1em;
+        }
+    </style>
+</head>
+<body>
+<textarea id="source">
+class: center, middle, inverse
+# EdxViz Final Presentation
+
+- Andrew Lim ([@AndrewLim1990](https://github.com/AndrewLim1990))
+- David Laing ([@laingdk](https://github.com/laingdk))
+- Matthew Emery ([@lstmemery](https://github.com/lstmemery))
+- Subi Zhang ([@subizhangg](https://github.com/subizhangg))
+
+
+June 27th, 2017
+
+---
+# Introduction
+![](./../img/intro_and_goals/mooc_intro.jpg)
+*image source: https://www.diygenius.com/wp-content/uploads/2013/08/ultimate-mooc-guide.jpg*
+
+---
+# Main Goal
+#### Create the next dashboard iteration
+* Current existing solution:
+![Insight 1](./../img/intro_and_goals/insights_1.png)
+
+
+---
+![Insight 2](./../img/intro_and_goals/insights_2.png)
+
+
+---
+![Insight 3](./../img/intro_and_goals/insights_3.png)
+
+
+---
+![Insight 4](./../img/intro_and_goals/insights_4.png)
+
+
+---
+![Insight 5](./../img/intro_and_goals/insights_5.png)
+
+
+---
+
+# Goals
+
+* Create the next dashboard iteration
+* Help instructors to answer key questions:
+* Who are my students? (General demographics)
+* What is the overall structure of my course?
+* How are students engaging with my videos?
+* How are students performing on the problems?
+* How are students interacting with the forums?
+
+---
+
+# How does our usability testing work?
+
+![usability testing workflow](./../img/loop.png)
+
+---
+# Testing Protocol
+
+###  1. Pre-test Question  
+
+- What kind of information about student learning do you want to get and have no access to now?
+
+### 2. Scavenger Hunt
+
+![Scavenger hunt Questions](./../img/scavenger_hunt_questions.png)
+
+### 3. Post-test Questions
+
+- What was confusing or frustrating about using or interpreting the dashboard?
+- What information, if any, seemed particularly useful to you?
+- What did you want to know more about?
+---
+# Excerpts from Instructor Feedback
+
+![Feedback Notes Table](./../img/notes_table.png)
+
+---
+
+# How do we deal with hundreds of requirements from instructors?
+
+![Product Management Table](./../img/cartoon.jpg)
+
+Create a "universal remote control" to satisfy everyone's need ？
+
+No.
+
+###  We mainly targeted six key pain points that have been mentioned a couple of times by instructors.
+
+---
+# Instructor Pain Point 1: **Not enough interactivity**
+
+![pain point 1](./../img/p1.png)
+
+
+---
+# Instructor Pain Point 2: **Unclear display of overview engagement Eiffel Tower graph**
+
+![pain point 2](./../img/p2.png)
+
+
+---
+# Instructor Pain Point 3: **Lack of guidance for analytics of problem sets**
+
+![pain point 3](./../img/p3.png)
+
+---
+# Instructor Pain Point 4:**Lack of in-depth understanding of student video watching behavior**
+
+![pain point 4](./../img/p4.png)
+
+---
+# Instructor Pain Point 5: **No access to forum discussion data**
+
+![pain point 5](./../img/p5.png)
+
+---
+# Instructor Pain Point 6: **Lack of information about which URLs are clicked**
+
+![pain point 6](./../img/p6.png)
+
+---
+
+# Why Reproducibility Matters
+
+ - UBC has dozens of MOOCs
+ - Other universities may adopt this dashboard
+ - Broken dashboards don't get used
+
+---
+
+# Course Population
+
+<img style="margin: auto; display: block;"
+     src="./../img/populate_course.png"
+     width="66%" height="66%"
+     alt="Populate Course Diagram">
+
+---
+# Project Encapsulation
+
+- All dependencies must be explicit
+
+![Deployment Structure](./../img/deployment_structure.png)
+
+# Future of the project
+
+* Deploy for all UBC courses
+* Submit for publication/CRAN
+* Present at edX conference in November
+* Hopefully, deploy for all edX courses
+
+---
+# Documentation
+
+[![](./../img/future/documentation.png)](https://andrewlim1990.github.io/edx_dashboard_documentation.github.io/index.html)
+
+---
+
+# Wishlist
+
+* Advanced filter options
+* "Download Data" option
+* Prediction of student success & drop-out
+* Functionality for A/B testing
+* Social network analysis
+    </textarea>
+<script src="https://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+    var slideshow = remark.create({navigation: {scroll: false,}});
+</script>
+</body>
+</html>
